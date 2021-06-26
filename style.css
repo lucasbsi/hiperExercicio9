@@ -1,0 +1,29 @@
+
+
+/*
+-O título contido na seção <main> deve ter fonte diferente do restante da página;
+-Deverá ser aplicada uma imagem de fundo somente na seção <main>
+-Todos os <article> devem conter uma cor de fundo.
+-Todos os parágrafos contidos na seção <article> devem ter cor diferente da demais seções da página
+-O alinhamento dos parágrafos contidos na seção <article> deve ser centralizado.  
+*/
+
+
+
+#titulo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body {
+    background-image: url("./img/background.jpg");
+
+}
+
+article {
+    background-color: gray;
+}
+article p{
+    color: greenyellow;
+    text-align: center;
+}
